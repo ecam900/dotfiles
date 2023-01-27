@@ -18,6 +18,7 @@ end
 
 -- Set colorscheme (from core/colors.lua/colorscheme_name)
 local colors = require('core/colors').onedark_dark
+print(colors, "was colors")
 
 local vi_mode_colors = {
   NORMAL = colors.cyan,
